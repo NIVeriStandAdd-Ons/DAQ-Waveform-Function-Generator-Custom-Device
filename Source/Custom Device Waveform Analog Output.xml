@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>Waveform Analog Output</eng>
+    <loc>Waveform Analog Output</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>-1</MaxOccurrence>
+  <MainPageGUID>b317c21f-b9d3-4af8-991e-248377f6c2c4</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform Analog Output\Waveform Analog Output Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Waveform Analog Output\Waveform Analog Output Engine Windows.llb\Inline HW RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Waveform Analog Output\Waveform Analog Output Engine Windows.llb\Inline HW RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Waveform Analog Output\c\Waveform Analog Output Engine Pharlap.llb\Inline HW RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Waveform Analog Output\Waveform Analog Output Engine Pharlap.llb\Inline HW RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>		
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Waveform Analog Output</eng>
+        <loc>Waveform Analog Output</loc>
+      </Name>
+      <GUID>b317c21f-b9d3-4af8-991e-248377f6c2c4</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\waveform.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform Analog Output\Waveform Analog Output Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>AO Channel</eng>
+        <loc>AO Channel</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>96afaf3e-5a97-400f-9939-dce0822ed639</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\ai wfm.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform Analog Output\Waveform Analog Output Configuration.llb\AO Channel.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>AO Parameter</eng>
+        <loc>AO Parameter</loc>
+      </Name>
+      <GUID>55162da2-8447-4cd5-9327-959574672a6c</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform Analog Output\Waveform Analog Output Configuration.llb\AO Parameter.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Status Page</eng>
+        <loc>Status Page</loc>
+      </Name>
+      <GUID>0217cd2d-b942-4db7-90cc-07a95c7aaa37</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform Analog Output\Waveform Analog Output Configuration.llb\Status Page.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>

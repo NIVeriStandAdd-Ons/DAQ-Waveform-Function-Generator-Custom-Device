@@ -15,6 +15,7 @@
 			<Item Name="Print Outside Range Message.vi" Type="VI" URL="../Print Outside Range Message.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
+		<Item Name="Print Error Message.vi" Type="VI" URL="../Print Error Message.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Console Message Type.ctl" Type="VI" URL="../Console Message Type.ctl"/>

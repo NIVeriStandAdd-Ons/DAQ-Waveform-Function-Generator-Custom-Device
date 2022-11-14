@@ -20,7 +20,5 @@
 		<Item Name="Console Message Type.ctl" Type="VI" URL="../Console Message Type.ctl"/>
 		<Item Name="DAQ Config Data.ctl" Type="VI" URL="../DAQ Config Data.ctl"/>
 	</Item>
-	<Item Name="Debug Message Loop.vi" Type="VI" URL="../Debug Message Loop.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
-	<Item Name="Waveform Generation Loop.vi" Type="VI" URL="../Waveform Generation Loop.vi"/>
 </Library>

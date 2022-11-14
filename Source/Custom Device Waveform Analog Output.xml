@@ -6,7 +6,7 @@
     <loc>NI::Waveform Analog Output</loc>
   </AddMenu>
   <Version>1.0.0</Version>
-  <Type>Inline HW Interface</Type>
+  <Type>Asynchronous</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>b317c21f-b9d3-4af8-991e-248377f6c2c4</MainPageGUID>
   <InitializationVI>

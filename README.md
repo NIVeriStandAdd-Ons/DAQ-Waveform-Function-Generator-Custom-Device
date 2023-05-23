@@ -4,11 +4,11 @@ The **DAQ Waveform Function Generator Custom Device** allows you to output eithe
 
 ### LabVIEW Version ###
 
-This custom device was written and tested with LabVIEW 2014 and VeriStand 2014.
+The LabVIEW source for this repository is saved for LabVIEW 2020, but is forward compatible to newer versions.
 
 ### Built Availability ###
 
-Built versions of this device are not available. Download the source and build it to use this device.
+Built versions for VeriStand 2020 or later are available at Releases page.
 
 ### Quality, Limitations ###
 
@@ -17,8 +17,8 @@ This code isn't widely used, but was heavily tested during development and early
 Note that this code was developed and tested specifically with a PXIe-4322 but was also validated on an X series card and should function with any AO DAQ card. 
 
 ### Dependencies ###
-
-This code requires the DAQmx driver.
+- [NI VeriStand Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+- [NI-DAQmx](https://www.ni.com/en-ca/support/downloads/drivers/download.ni-daq-mx.html#480879)
 
 ### License ###
 
